@@ -10,7 +10,6 @@ font-family: 'Raleway', sans-serif;
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -37,17 +36,54 @@ h1{
 /*Section About*/
 .color{
 	background-color: #ABE188;
-	border:10px;
+	border-width:20px 0px 20px 0px ;
 	border-color: #F78E69;
-	padding: 30px;
+	border-style: solid;
+	padding: 40px;
 }
 
 .about {
 	background-color: #F78E69;
 	display: block;
-	width: 60%;
-	padding: 20px;
+	width: 55%;
+	padding: 40px;
 	margin: 0 auto;
 	color: white;
 	text-align: center;
+}
+
+/*Second Panda*/
+.panda2{
+	background-image: url("../img/dos.jpg"); 
+	background-size: cover;
+	background-position: center; 
+	padding: 250px 0; 
+}
+
+/*Section fotos pandas*/
+.color h3 {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+/*Section 3r Panda*/
+.panda3 {
+	background-image: url("../img/tres.jpg"); 
+	background-size: cover;
+	background-position: center; 
+	padding: 250px 0; 
+}
+
+/*Pie de página*/
+footer{
+	background-color: #F78E69;
+	text-align: right;
+	color: white;
+	padding: 10px;
+}
+
+footer h3 {
+	font-size: 15px;
 }
