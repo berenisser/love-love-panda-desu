@@ -6,3 +6,48 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*Section Header*/
+header {
+	background-color: #F78E69;
+	text-align: right;
+	background-size: cover;
+	color: white;
+	padding: 50px;
+}
+
+h1{
+	font-size: 50px;
+}
+
+.panda1 {
+	background-image: url("../img/uno.jpg"); 
+	background-size: cover;
+	background-position: center; 
+	padding: 250px 0; 
+}
+
+/*Section About*/
+.color{
+	background-color: #ABE188;
+	border:10px;
+	border-color: #F78E69;
+	padding: 30px;
+}
+
+.about {
+	background-color: #F78E69;
+	display: block;
+	width: 60%;
+	padding: 20px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
